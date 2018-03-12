@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <style>
+      body{
+        background:#ddd;
+      }
+      h4{
+        padding-bottom: 15px;
+        border-bottom: thin solid black;
+        margin-top: 0px;
+      }
+      .mian{
+        padding:20px;
+        max-width: 700px;
+        background-color: white;
+        margin:20px auto;
+        border-radius: 10px;
+      }
+      .mian p {
+        font-size: 10px;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <body>
+    <div class='mian'>
+      <h4>根据自定义属性对图片进行幻灯片效果</h4>
+      <p>data-title : 定义图片标题</p> 
+      <p>data-group : 定义图片是否为一个集合</p>
+  <br/>
+      <h4>多张图片</h4>
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-1'  data-group='group-1'  src="images/1.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-2'  data-group='group-1'  src="images/2.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-3'  data-group='group-1'  src="images/3.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-4'  data-group='group-1'  src="images/4.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-5'  data-group='group-1'  src="images/5.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-6'  data-group='group-1'  src="images/6.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-7'  data-group='group-1'  src="images/7.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-8'  data-group='group-1'  src="images/8.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-9'  data-group='group-1'  src="images/9.jpg"  width="150" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE1-10'  data-group='group-1' src="images/10.jpg"  width="150" height="100"/>
+  <br/>
+  <br/>
+      <h4>单一图片</h4>
+      <img class='js-lightBox' data-title='PICTURE-TITLE2-1' data-group='group-3'  src="images/11.jpg" width="100" height="100" />
+  <br/>
+  <br/>
+      <h4>大尺寸图片</h4>
+      <img class='js-lightBox' data-title='PICTURE-TITLE3-1' data-group='group-4' src="images/12.jpg" width="80" height="100" /> 
+      <img class='js-lightBox' data-title='PICTURE-TITLE3-1' data-group='group-4' src="images/13.jpg" width="100" height="100" />
+      <img class='js-lightBox' data-title='PICTURE-TITLE3-1' data-group='group-4' src="images/14.jpg" width="80" height="100" /> 
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+    <script src='js/lightBox.js'></script>
+    <script>
+    jQuery(document).ready(function($) {
+
+      $.DNLightBox({
+        speed:500
+      });
+
+    });
+    </script>
+    </body>
+</html>
