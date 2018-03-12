@@ -31,6 +31,7 @@ img {
 .lightBox-popupMask {
   filter: alpha(opacity=50);
   width: 100%;
+  top: 0;
   display: none;
   position: fixed;
   z-index: 9999;

@@ -51,6 +51,7 @@ img{
 .lightBox-popupMask{
   filter:alpha(opacity=50);
   width:$full;
+  top:0;
   @include defalutPosition(9999,$full,rgba(0,0,0,.5));
 }
 
