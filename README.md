@@ -20,9 +20,9 @@ DNlightBox is a beautiful Slide effect.
 
 ![](https://devin-huang.github.io/img/pubilc/Lightbox-options.jpg)
 
-![](https://devin-huang.github.io/img/pubilc/lightBox-code.jpg)
-
 # Usage
+
+![](https://devin-huang.github.io/img/pubilc/lightBox-code.jpg)
 
 HTML:
 
