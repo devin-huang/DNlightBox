@@ -18,7 +18,7 @@ DNlightBox is a beautiful Slide effect.
 
 # options
 
-speed:500
+![](https://devin-huang.github.io/img/pubilc/Lightbox-options.jpg)
 
 ![](https://devin-huang.github.io/img/pubilc/lightBox-code.jpg)
 
