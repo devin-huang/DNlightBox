@@ -1,6 +1,6 @@
 # DNlightBox
 jQuery plugin
 
-![](/img/pubilc/lightbox.jpg)
+![](https://devin-huang.github.io/img/pubilc/lightBox.jpg)
 
-![](/img/pubilc/lightBox-code.jpg)
+![](https://devin-huang.github.io/img/pubilc/lightBox-code.jpg)
